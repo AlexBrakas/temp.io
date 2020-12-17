@@ -68,3 +68,21 @@ background-color: transparent;
 .navbar:hover div {
   width: 60px;
 }
+
+.image{
+  width: 100%;
+  height: 100%;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column{
+  margin: 1% 0;
+  padding: 2%;
+  width: 50%;
+  float: left;
+}
